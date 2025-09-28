@@ -1,0 +1,68 @@
+.product-filter {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 32px;
+  border-bottom: 1px solid rgba(229, 223, 217, 0.2);
+}
+
+.filter-left {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.filter-dot {
+  width: 5px;
+  height: 5px;
+  background-color: #E5DFD9;
+  border-radius: 50%;
+}
+
+.filter-text {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.25;
+  letter-spacing: 0.1em;
+  color: #E5DFD9;
+}
+
+.product-count {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.25;
+  letter-spacing: 0.1em;
+  color: #E5DFD9;
+}
+
+.filter-icon {
+  width: 16.67px;
+  height: 20px;
+  cursor: pointer;
+  transition: opacity 0.3s ease;
+}
+
+.filter-icon:hover {
+  opacity: 0.7;
+}
+
+@media (max-width: 768px) {
+  .product-filter {
+    padding: 16px;
+    flex-direction: column;
+    gap: 16px;
+    align-items: flex-start;
+  }
+  
+  .filter-left {
+    gap: 6px;
+  }
+  
+  .filter-text {
+    font-size: 14px;
+  }
+  
+  .product-count {
+    font-size: 14px;
+  }
+}
