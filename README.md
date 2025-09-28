@@ -179,3 +179,8 @@ This project is created for demonstration purposes based on the provided Figma d
 ---
 
 **Built with ❤️ using React.js and modern web technologies**
+
+** Using THese line to start your Project
+- npm install
+- npm start
+
